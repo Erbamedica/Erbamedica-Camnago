@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Erboristeria Erbamedica Camnago a Lentate sul Seveso. Un mondo di piante, tisane e prodotti naturali.">
+<title>Erbamedica Camnago | Erboristeria</title>
+<style>
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: #f8f6ef;
+  color: #293f32;
+  font-family: Arial, sans-serif;
+}
+header {
+  background: #f8f6ef;
+  padding: 24px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.logo {
+  font: bold 29px Georgia, serif;
+  letter-spacing: 2px;
+}
+.logo small {
+  display: block;
+  text-align: center;
+  font: 11px Arial, sans-serif;
+  letter-spacing: 4px;
+  margin-top: 5px;
+}
+nav a {
+  color: #293f32;
+  text-decoration: none;
+  margin-left: 18px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.hero {
+  min-height: 570px;
+  display: flex;
+  align-items: center;
+  padding: 80px 9%;
+  color: white;
+  background:
+    linear-gradient(90deg, rgba(22,43,30,.88), rgba(22,43,30,.20)),
+    url("negozio-esterno.jpg") center/cover;
+}
+.hero-content { max-width: 670px; }
+.eyebrow {
+  color: #b99b64;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+h1, h2, h3 { font-family: Georgia, serif; }
+h1 {
+  font-size: clamp(43px, 6vw, 74px);
+  line-height: 1.12;
+  font-weight: normal;
+  margin: 20px 0;
+}
+h1 em { color: #e4d0a8; }
+.hero-content > p:not(.eyebrow) {
+  max-width: 490px;
+  line-height: 1.9;
+}
+.button {
+  display: inline-block;
+  background: #b99b64;
+  color: white;
+  text-decoration: none;
+  padding: 16px 25px;
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.section {
+  padding: 85px 8%;
+  text-align: center;
+}
+h2 {
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: normal;
+  margin: 15px 0 30px;
+}
+.description {
+  max-width: 680px;
+  margin: auto;
+  line-height: 2;
+  color: #677267;
+}
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+  text-align: left;
+}
+.about img {
+  width: 100%;
+  height: 410px;
+  object-fit: cover;
+}
+.about .description { margin: 0; }
+.categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+}
+.category {
+  background: #eae9de;
+  padding: 40px 15px;
+}
+.category .symbol { font-size: 35px; }
+.category h3 {
+  font-size: 22px;
+  font-weight: normal;
+}
+.quote {
+  background: #293f32;
+  color: white;
+  padding: 75px 10%;
+  text-align: center;
+  font: italic 30px Georgia, serif;
+}
+.contact { background: #eae9de; }
+.contact p { line-height: 2; }
+.contact a:not(.button) { color: #293f32; }
+footer {
+  background: #1d3024;
+  color: white;
+  padding: 35px;
+  text-align: center;
+  font-size: 13px;
+}
+.whatsapp {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #287c52;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 13px;
+}
+@media (max-width: 750px) {
+  header { flex-direction: column; }
+  nav { text-align: center; }
+  nav a { display: inline-block; margin: 8px; }
+  .hero { min-height: 460px; padding: 65px 7%; }
+  .about { grid-template-columns: 1fr; }
+  .about img { height: auto; }
+  .categories { grid-template-columns: 1fr; }
+  .section { padding: 65px 7%; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">ERBAMEDICA<small>CAMNAGO</small></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#chi-siamo">Chi siamo</a>
+    <a href="#prodotti">Prodotti</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="eyebrow">Il piacere delle cose naturali</p>
+    <h1>Il benessere<br><em>nasce dalla natura.</em></h1>
+    <p>Un mondo di profumi, piante e piccoli gesti quotidiani. Scopri il piacere di prenderti cura di te.</p>
+    <a class="button" href="#prodotti">Scopri il nostro mondo</a>
+  </div>
+</section>
+
+<section class="section about" id="chi-siamo">
+  <img src="negozio-interno.jpg" alt="Interno dell'Erboristeria Erbamedica Camnago">
+  <div>
+    <p class="eyebrow">Benvenuti da Erbamedica</p>
+    <h2>La natura, ogni giorno più vicina.</h2>
+    <p class="description">
+      Benvenuti nell'Erboristeria Erbamedica Camnago.
+      Uno spazio dedicato al mondo naturale, alle piante
+      officinali e ai piccoli gesti di benessere quotidiano.
+      Vieni a conoscere la nostra erboristeria.
+    </p>
+  </div>
+</section>
+
+<section class="section" id="prodotti">
+  <p class="eyebrow">Esplora</p>
+  <h2>Il nostro mondo naturale</h2>
+  <div class="categories">
+    <div class="category"><div class="symbol">🍵</div><h3>Tisane e infusi</h3></div>
+    <div class="category"><div class="symbol">🌿</div><h3>Piante officinali</h3></div>
+    
+<div class="category">
+  <div class="symbol">🌸</div>
+  <h3>L'Erbolario</h3>
+  <p>
+    Profumi, cosmetici naturali, trattamenti
+    per viso e corpo e tante idee regalo.
+    Scopri il mondo L'Erbolario da Erbamedica Camnago.
+  </p>
+  <a href="erbolario.html"
+     style="display:inline-block; margin-top:12px;
+     color:#293f32; font-weight:bold;">
+    Scopri L'Erbolario →
+  </a>
+</div>
+
+    
+
+<div class="category">
+  <div class="symbol">🌿</div>
+<h3>Pharmalife Research</h3>
+  <p>
+    Scopri gli integratori Pharmalife Research
+    disponibili presso Erbamedica Camnago.
+    Una gamma dedicata alle diverse esigenze
+    di benessere quotidiano.
+  </p>
+  </p>
+</div>
+
+    <div class="category"><div class="symbol">💧</div><h3>Oli essenziali</h3></div>
+    <div class="category"><div class="symbol">🎁</div><h3>Idee regalo</h3></div>
+  </div>
+</section>
+
+<section class="quote">
+  “La natura ci insegna il valore delle piccole cose.”
+</section>
+
+<section class="section contact" id="contatti">
+  <p class="eyebrow">Vieni a trovarci</p>
+  <h2>Ti aspettiamo a Camnago.</h2>
+  <p>Piazza Fratelli Cervi 2<br>Camnago – Lentate sul Seveso</p>
+  <p>
+    Telefono: <a href="tel:0362542566">0362 542566</a><br>
+    Email: <a href="mailto:erbamedica2@gmail.com">erbamedica2@gmail.com</a><br>
+    WhatsApp: <a href="https://wa.me/393398703558">339 870 3558</a>
+  </p>
+  
+<h3>Orari di apertura</h3>
+<p>
+  Lunedì: Chiuso<br>
+  Martedì: 09:30–12:30 / 16:00–19:00<br>
+  Mercoledì: 09:30–12:30 / 16:00–19:00<br>
+  Giovedì: 09:30–12:30 / 16:00–19:00<br>
+  Venerdì: 09:30–12:30 / 16:00–19:00<br>
+  Sabato: 09:30–12:30 / 16:00–19:00<br>
+  Domenica: Chiuso
+</p>
+
+  <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Piazza+Fratelli+Cervi+2+Camnago+Lentate+sul+Seveso" target="_blank" rel="noopener">Come raggiungerci</a>
+</section>
+</main>
+
+<footer>
+  <p>✳ ERBAMEDICA CAMNAGO</p>
+  <p>© 2026 Erboristeria Erbamedica Camnago</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/393398703558" target="_blank" rel="noopener">WhatsApp</a>
+
+</body>
+</html>

@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>L'Erbolario | Erbamedica Camnago</title>
+
+<meta name="description"
+content="Scopri le linee L'Erbolario presso Erboristeria Erbamedica Camnago a Lentate sul Seveso. Profumi, cosmetici e idee regalo.">
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #f8f6ef;
+  color: #293f32;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #f8f6ef;
+  padding: 24px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  font: bold 29px Georgia, serif;
+  letter-spacing: 2px;
+}
+
+.logo small {
+  display: block;
+  text-align: center;
+  font: 11px Arial, sans-serif;
+  letter-spacing: 4px;
+  margin-top: 5px;
+}
+
+nav a {
+  color: #293f32;
+  text-decoration: none;
+  margin-left: 18px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.hero {
+  background: #293f32;
+  color: white;
+  text-align: center;
+  padding: 95px 8%;
+}
+
+.eyebrow {
+  color: #b99b64;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: clamp(42px, 6vw, 70px);
+  margin: 20px 0;
+}
+
+.hero p:last-child {
+  max-width: 650px;
+  margin: auto;
+  line-height: 1.9;
+}
+
+section {
+  padding: 75px 8%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 15px 0 30px;
+}
+
+.intro {
+  max-width: 750px;
+  margin: auto;
+  line-height: 2;
+  color: #677267;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 45px;
+}
+
+.category {
+  background: #eae9de;
+  padding: 45px 22px;
+  border-bottom: 3px solid #b99b64;
+}
+
+.category .symbol {
+  font-size: 36px;
+}
+
+.category h3 {
+  font-size: 25px;
+}
+
+.category p {
+  color: #677267;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.contact {
+  background: #eae9de;
+}
+
+.contact p {
+  line-height: 2;
+}
+
+.button {
+  display: inline-block;
+  background: #b99b64;
+  color: white;
+  text-decoration: none;
+  padding: 16px 25px;
+  margin-top: 18px;
+  font-size: 13px;
+}
+
+footer {
+  background: #1d3024;
+  color: white;
+  text-align: center;
+  padding: 35px;
+  font-size: 13px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #287c52;
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-size: 13px;
+}
+
+@media (max-width: 750px) {
+  header { flex-direction: column; }
+  nav { text-align: center; }
+  nav a { display: inline-block; margin: 8px; }
+  .categories { grid-template-columns: 1fr; }
+  section { padding: 60px 7%; }
+  h2 { font-size: 32px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    ERBAMEDICA
+    <small>CAMNAGO</small>
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#collezioni">Collezioni</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+</header>
+
+<main>
+
+<div class="hero">
+  <p class="eyebrow">Erbamedica Camnago presenta</p>
+  <h1>Il mondo L'Erbolario</h1>
+  <p>
+    Profumi, cosmetici e idee regalo ispirati al mondo
+    botanico. Scopri le proposte L'Erbolario
+    presso la nostra erboristeria a Camnago.
+  </p>
+</div>
+
+<section id="collezioni">
+  <p class="eyebrow">Scopri le categorie</p>
+  <h2>La bellezza della natura</h2>
+
+  <p class="intro">
+    Da Erbamedica Camnago trovi normalmente
+    la gamma dei prodotti L'Erbolario.
+    Esplora le principali categorie e contattaci
+    per conoscere i prodotti disponibili.
+  </p>
+
+  <div class="categories">
+
+    <div class="category">
+      <div class="symbol">🌸</div>
+      <h3>Profumi</h3>
+      <p>Fragranze e acque profumate per ogni gusto.</p>
+    </div>
+
+    <div class="category">
+      <div class="symbol">🌿</div>
+      <h3>Viso</h3>
+      <p>Detersione e trattamenti cosmetici per il viso.</p>
+    </div>
+
+    <div class="category">
+      <div class="symbol">🧴</div>
+      <h3>Corpo</h3>
+      <p>Bagnoschiuma, creme e prodotti per la cura del corpo.</p>
+    </div>
+
+    <div class="category">
+      <div class="symbol">🌼</div>
+      <h3>Capelli</h3>
+      <p>Shampoo, balsami e trattamenti per i capelli.</p>
+    </div>
+
+    <div class="category">
+      <div class="symbol">🍃</div>
+      <h3>Linea uomo</h3>
+      <p>Profumi e cosmetici dedicati alla cura maschile.</p>
+    </div>
+
+    <div class="category">
+      <div class="symbol">🎁</div>
+      <h3>Idee regalo</h3>
+      <p>Confezioni e proposte per occasioni speciali.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="contact" id="contatti">
+  <p class="eyebrow">Siamo a tua disposizione</p>
+  <h2>Scopri L'Erbolario da Erbamedica</h2>
+
+  <p>
+    Vuoi sapere se un prodotto è disponibile?<br>
+    Scrivici direttamente su WhatsApp.
+  </p>
+
+  <a class="button"
+     href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario"
+     target="_blank"
+     rel="noopener noreferrer">
+    Chiedi informazioni su WhatsApp
+  </a>
+
+  <p>
+    Piazza Fratelli Cervi 2<br>
+    Camnago – Lentate sul Seveso<br>
+    Tel. <a href="tel:0362542566">0362 542566</a>
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <p>ERBAMEDICA CAMNAGO</p>
+  <p>Erboristeria indipendente · Prodotti L'Erbolario</p>
+  <p>© 2026 Erboristeria Erbamedica Camnago</p>
+</footer>
+
+<a class="whatsapp"
+   href="https://wa.me/393398703558"
+   target="_blank"
+   rel="noopener noreferrer">
+  WhatsApp
+</a>
+
+</body>
+</html>
