@@ -170,6 +170,32 @@ footer {
   section { padding: 60px 7%; }
   h2 { font-size: 32px; }
 }
+
+/* Catalogo L’Erbolario */
+.catalogue {padding-top:75px;}
+.search-area {max-width:670px;margin:38px auto 55px;text-align:left;}
+.search-area label {display:block;font-weight:bold;font-size:13px;margin-bottom:12px;letter-spacing:.04em;}
+.search-area input {width:100%;padding:18px 20px;border:1px solid #d4d5c9;background:#fff;border-radius:4px;font:16px Arial,sans-serif;color:#293f32;outline-offset:3px;}
+#search-count {font-size:13px;color:#677267;margin:10px 0 0;}
+.line-group {margin:65px auto 0;max-width:1200px;text-align:left;}
+.group-heading {display:flex;align-items:center;gap:14px;border-bottom:1px solid #d9d8cc;margin-bottom:24px;padding-bottom:15px;}
+.group-heading span {font-size:26px;}
+.group-heading h3 {font-size:clamp(25px,3vw,34px);margin:0;}
+.line-grid {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;}
+.line-card {background:#fff;border:1px solid #e6e4d9;border-bottom:3px solid #b99b64;min-width:0;overflow:hidden;}
+.line-art {height:118px;background:linear-gradient(140deg,#e8eee3,#f4f0e7 60%,#eee6dc);display:flex;align-items:center;justify-content:center;}
+.line-art .leaf {font:38px Georgia,serif;color:#a6b69d;}
+.line-info {padding:20px;}
+.line-info h4 {font:normal 23px/1.2 Georgia,serif;margin:0 0 10px;min-height:55px;}
+.line-info>p {color:#677267;font-size:13px;line-height:1.6;margin:0 0 15px;}
+.line-info details {border-top:1px solid #eeeae0;padding-top:13px;}
+.line-info summary {cursor:pointer;color:#293f32;font-weight:bold;font-size:13px;}
+.line-info details p {font-size:13px;line-height:1.7;color:#677267;}
+.line-contact {display:inline-block;color:#246847;font-size:13px;font-weight:bold;line-height:1.5;}
+#no-results {margin:45px auto;color:#677267;}
+@media(max-width:1000px){.line-grid{grid-template-columns:repeat(3,minmax(0,1fr));}}
+@media(max-width:700px){.line-grid{grid-template-columns:repeat(2,minmax(0,1fr));}.line-info{padding:15px}.line-info h4{font-size:20px;}.line-art{height:95px;}}
+@media(max-width:440px){.line-grid{grid-template-columns:1fr;}.line-info h4{min-height:0;}}
 </style>
 </head>
 
@@ -200,91 +226,65 @@ footer {
   </p>
 </div>
 
-<section id="collezioni">
-  <p class="eyebrow">Scopri le categorie</p>
-  <h2>La bellezza della natura</h2>
-
-  <p class="intro">
-    Da Erbamedica Camnago trovi normalmente
-    la gamma dei prodotti L'Erbolario.
-    Esplora le principali categorie e contattaci
-    per conoscere i prodotti disponibili.
-  </p>
-
-  
-<div class="categories">
-
-  <div class="category">
-    <div class="symbol">🌸</div>
-    <h3>Profumi</h3>
-    <p>Fragranze e acque profumate per ogni gusto.</p>
-    <a href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20profumi%20L%27Erbolario"
-       target="_blank" rel="noopener noreferrer"
-       style="display:inline-block; margin-top:15px; color:#293f32; font-weight:bold;">
-      Chiedi informazioni →
-    </a>
-  </div>
-
-  <div class="category">
-    <div class="symbol">🌿</div>
-    <h3>Viso</h3>
-    <p>Detersione e trattamenti cosmetici per il viso.</p>
-    <a href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20viso%20L%27Erbolario"
-       target="_blank" rel="noopener noreferrer"
-       style="display:inline-block; margin-top:15px; color:#293f32; font-weight:bold;">
-      Chiedi informazioni →
-    </a>
-  </div>
-
-  <div class="category">
-    <div class="symbol">🧴</div>
-    <h3>Corpo</h3>
-    <p>Bagnoschiuma, creme e prodotti per la cura del corpo.</p>
-    <a href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20corpo%20L%27Erbolario"
-       target="_blank" rel="noopener noreferrer"
-       style="display:inline-block; margin-top:15px; color:#293f32; font-weight:bold;">
-      Chiedi informazioni →
-    </a>
-  </div>
-
-  <div class="category">
-    <div class="symbol">🌼</div>
-    <h3>Capelli</h3>
-    <p>Shampoo, balsami e trattamenti per i capelli.</p>
-    <a href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20capelli%20L%27Erbolario"
-       target="_blank" rel="noopener noreferrer"
-       style="display:inline-block; margin-top:15px; color:#293f32; font-weight:bold;">
-      Chiedi informazioni →
-    </a>
-  </div>
-
-  <div class="category">
-    <div class="symbol">🍃</div>
-    <h3>Linea uomo</h3>
-    <p>Profumi e cosmetici dedicati alla cura maschile.</p>
-    <a href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sulla%20linea%20uomo%20L%27Erbolario"
-       target="_blank" rel="noopener noreferrer"
-       style="display:inline-block; margin-top:15px; color:#293f32; font-weight:bold;">
-      Chiedi informazioni →
-    </a>
-  </div>
-
-  <div class="category">
-    <div class="symbol">🎁</div>
-    <h3>Idee regalo</h3>
-    <p>Confezioni e proposte per occasioni speciali.</p>
-    <a href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sulle%20idee%20regalo%20L%27Erbolario"
-       target="_blank" rel="noopener noreferrer"
-       style="display:inline-block; margin-top:15px; color:#293f32; font-weight:bold;">
-      Chiedi informazioni →
-    </a>
-  </div>
-
-</div>
-
-
-  </div>
-</section>
+<section id="collezioni" class="catalogue"><p class="eyebrow">Le collezioni che trovi da noi</p><h2>La bellezza della natura</h2><p class="intro">Esplora le linee L’Erbolario selezionate da Erbamedica Camnago. Le fotografie dei singoli prodotti saranno aggiunte progressivamente. Per conoscere la disponibilità, scrivici su WhatsApp.</p><div class="search-area"><label for="line-search">Cerca una linea L’Erbolario</label><input id="line-search" type="search" placeholder="Per esempio: Iris, Amarena, Acido Ialuronico…" autocomplete="off"><p id="search-count" aria-live="polite"></p></div>
+<div class="line-group" id="gruppo-0"><div class="group-heading"><span aria-hidden="true">🌹</span><h3>Linee profumate</h3></div><div class="line-grid">
+<article class="line-card" data-line="3 rosa"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>3 Rosa</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%203%20Rosa%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="accordo di ebano"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Accordo di Ebano</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Accordo%20di%20Ebano%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="accordo viola"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Accordo Viola</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Accordo%20Viola%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="alba in asia"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Alba in Asia</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Alba%20in%20Asia%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="amarena"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Amarena</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Amarena%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="ambra liquida"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Ambra Liquida</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Ambra%20Liquida%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="assenzio"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Assenzio</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Assenzio%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="assenzio per lui"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Assenzio per Lui</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Assenzio%20per%20Lui%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="bacche fiori e legni"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Bacche Fiori e Legni</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Bacche%20Fiori%20e%20Legni%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="bella di notte"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Bella di Notte</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Bella%20di%20Notte%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="bouche oro"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Bouche Oro</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Bouche%20Oro%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="fiordaliso"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Fiordaliso</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Fiordaliso%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="frangipani"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Frangipani</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Frangipani%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="gin botanicals"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Gin Botanicals</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Gin%20Botanicals%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="ginepro nero"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Ginepro Nero</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Ginepro%20Nero%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="iris"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Iris</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Iris%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="iris bianco"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Iris Bianco</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Iris%20Bianco%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="l’erbolario uomo"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>L’Erbolario Uomo</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20L%E2%80%99Erbolario%20Uomo%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="méharées"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Méharées</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20M%C3%A9har%C3%A9es%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="melograno"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Melograno</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Melograno%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="notte a tangeri"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Notte a Tangeri</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Notte%20a%20Tangeri%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="osmantus"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Osmantus</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Osmantus%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="patchouly"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Patchouly</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Patchouly%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="periplo"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Periplo</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Periplo%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="rosa purpurea"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Rosa Purpurea</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Rosa%20Purpurea%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="tè nero"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Tè Nero</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20T%C3%A8%20Nero%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="vaniglia"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Vaniglia</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Vaniglia%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="verbena"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Verbena</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Verbena%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="vetiver"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Vetiver</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Vetiver%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+</div></div>
+<div class="line-group" id="gruppo-1"><div class="group-heading"><span aria-hidden="true">🌿</span><h3>Bellezza del viso e della persona</h3></div><div class="line-grid">
+<article class="line-card" data-line="pelle mista e impura"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Pelle mista e impura</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Pelle%20mista%20e%20impura%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="acido ialuronico"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Acido Ialuronico</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Acido%20Ialuronico%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="acido ialuronico per lui"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Acido Ialuronico per Lui</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Acido%20Ialuronico%20per%20Lui%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="vitamina c &amp; oro 24k – potere anti-età"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Vitamina C &amp; Oro 24K – Potere Anti-Età</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Vitamina%20C%20%26%20Oro%2024K%20%E2%80%93%20Potere%20Anti-Et%C3%A0%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="all’olio di argan"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>All’Olio di Argan</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20All%E2%80%99Olio%20di%20Argan%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="karité"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Karité</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Karit%C3%A9%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="collezione le mani che ami"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Collezione Le mani che ami</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Collezione%20Le%20mani%20che%20ami%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+</div></div>
+<div class="line-group" id="gruppo-2"><div class="group-heading"><span aria-hidden="true">🌼</span><h3>La bellezza dei capelli</h3></div><div class="line-grid">
+<article class="line-card" data-line="macassar"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Macassar</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Macassar%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="miglio e soja"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Miglio e Soja</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Miglio%20e%20Soja%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+<article class="line-card" data-line="acido ialuronico – luce &amp; volume"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Acido Ialuronico – Luce &amp; Volume</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Acido%20Ialuronico%20%E2%80%93%20Luce%20%26%20Volume%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+</div></div>
+<div class="line-group" id="gruppo-3"><div class="group-heading"><span aria-hidden="true">🧸</span><h3>Il Giardino dei Piccoli</h3></div><div class="line-grid">
+<article class="line-card" data-line="il giardino dei piccoli"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Il Giardino dei Piccoli</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Il%20Giardino%20dei%20Piccoli%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+</div></div>
+<div class="line-group" id="gruppo-4"><div class="group-heading"><span aria-hidden="true">☀️</span><h3>Sole e Aria Aperta</h3></div><div class="line-grid">
+<article class="line-card" data-line="sole e aria aperta"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Sole e Aria Aperta</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Sole%20e%20Aria%20Aperta%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+</div></div>
+<div class="line-group" id="gruppo-5"><div class="group-heading"><span aria-hidden="true">🌸</span><h3>Collezione Profumi 10 ml e 15 ml</h3></div><div class="line-grid">
+<article class="line-card" data-line="collezione profumi 10 ml e 15 ml"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Collezione Profumi 10 ml e 15 ml</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Collezione%20Profumi%2010%20ml%20e%2015%20ml%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+</div></div>
+<div class="line-group" id="gruppo-6"><div class="group-heading"><span aria-hidden="true">🏡</span><h3>Per la Casa</h3></div><div class="line-grid">
+<article class="line-card" data-line="per la casa"><div class="line-art" aria-hidden="true"><span class="leaf">✦</span></div><div class="line-info"><h4>Per la Casa</h4><p>Scopri questa linea in negozio.</p><details><summary>Scopri la linea</summary><p>Stiamo preparando le fotografie ufficiali dei singoli prodotti. Chiedici quali articoli della linea sono disponibili.</p><a class="line-contact" href="https://wa.me/393398703558?text=Buongiorno%2C%20vorrei%20informazioni%20sui%20prodotti%20L%27Erbolario%20della%20linea%20Per%20la%20Casa%20presso%20Erbamedica%20Camnago." target="_blank" rel="noopener noreferrer">Chiedi su WhatsApp →</a></details></div></article>
+</div></div>
+<p id="no-results" hidden>Nessuna linea trovata. Prova a cercare un altro nome.</p></section>
 
 <section class="contact" id="contatti">
   <p class="eyebrow">Siamo a tua disposizione</p>
@@ -324,5 +324,24 @@ footer {
   WhatsApp
 </a>
 
+<script>
+(function () {
+  const input = document.getElementById('line-search');
+  const cards = Array.from(document.querySelectorAll('.line-card'));
+  const groups = Array.from(document.querySelectorAll('.line-group'));
+  const count = document.getElementById('search-count');
+  const empty = document.getElementById('no-results');
+  function normalize(text) { return text.toLocaleLowerCase('it').normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
+  function filter() {
+    const query = normalize(input.value.trim());
+    let shown = 0;
+    cards.forEach(card => { const visible = normalize(card.dataset.line).includes(query); card.hidden = !visible; if (visible) shown++; });
+    groups.forEach(group => { group.hidden = !group.querySelector('.line-card:not([hidden])'); });
+    empty.hidden = shown !== 0;
+    count.textContent = query ? shown + (shown === 1 ? ' linea trovata' : ' linee trovate') : '';
+  }
+  input.addEventListener('input', filter);
+})();
+</script>
 </body>
 </html>
